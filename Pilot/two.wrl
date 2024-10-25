@@ -1,0 +1,18 @@
+#VRML V2.0 utf8
+
+# A simple VRML world with a box geometry.
+
+Group {
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 255.0 255.0 0.5  # Default grey color
+                }
+            }
+            geometry Box {
+                size 3 4 5  Box dimensions: width 3, height 4, depth 5
+            }
+        }
+    ]
+}

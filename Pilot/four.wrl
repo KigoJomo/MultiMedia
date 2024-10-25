@@ -1,0 +1,17 @@
+#VRML V2.0 utf8
+
+Group {
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 1 0  # Set some color for visibility
+        }
+      }
+      geometry Cylinder {
+        radius 2    # Radius of the cylinder
+        height 4   # Height of the cylinder
+      }
+    }
+  ]
+}
